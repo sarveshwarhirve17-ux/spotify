@@ -167,7 +167,22 @@ button>* {
 .playbar{
     position: absolute;
     bottom: 0;
-    background-color: rgb(139, 193, 139);
-    width: 100%;
+    background-color: rgb(240, 249, 240);
+    width: 95%;
     padding: 12px;
+}
+
+.songbutton{
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+}
+
+.songlist ul{
+    padding: 0 42px;
+
+}
+
+.songlist ul li {
+list-style-type: decimal;
 }
